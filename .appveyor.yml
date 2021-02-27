@@ -10,4 +10,4 @@ install:
   - java -jar ./artifacts/app-mbank.jar &
 
 build_script:
-  - ./gradlew test --info
+  - ./rest/gradlew test --info
